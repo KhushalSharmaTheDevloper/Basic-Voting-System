@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family: inter;
+    font-weight: bolder;
+    font-size: 3em;
+    
+}
+
+h2 {
+    margin-left: 40px;
+    font-family: inter;
+    font-weight: lighter;
+    color: black;
+ 
+}
+
+h3 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: inter;
+  
+}
+
+span {
+    color: #49ea49;
+    font-size: 2em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: verdana;
+}
+
+h5 {
+    font-family: inter;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 2em;
+    margin-top: -40px;
+}

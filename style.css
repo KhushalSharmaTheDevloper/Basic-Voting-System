@@ -1,0 +1,171 @@
+h1 {
+    font-size: 100px;
+    text-align: left;
+    margin-left: 40px;
+    overflow: hidden;
+    font-family: inter;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: inter;
+    font-weight: lighter;
+    color: rgb(184, 184, 184);
+    margin-left: 40px;
+    margin-top: -60px;
+}
+
+input {
+    width: 600px;
+    height: 60px;
+    border-color: #0C41FF;
+    outline: none;
+    border-radius: 40px;
+    background-color: rgb(247, 247, 247);
+    font-size: 2em;
+    padding: 20px;
+    transition-timing-function: ease-in-out 500ms;
+    transition: ease-in-out 500ms;
+    margin: 20px;
+}
+
+input:hover{
+    transition-timing-function: ease-in-out 500ms;
+    transition: ease-in-out 500ms;
+    width: 850px;
+    transform: scale(110%);
+    overflow: hidden;
+    margin: 40px;
+    z-index: 1111;
+}
+input:focus{
+    background-color: rgb(227, 227, 227);
+}
+input:active{
+    background-color: rgb(236, 236, 236);
+    transform-origin: bottom;
+    transition: ease-in-out 500ms;
+}
+
+
+::placeholder{
+    
+    padding: 20px;
+    color: rgb(192, 192, 192);
+    font-weight: lighter;
+    text-align: left;
+    margin: -20px;
+}
+
+button{
+    display: grid;
+    margin-left: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(56, 56, 245);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.4em;
+    transition-timing-function: ease-in-out 500ms;
+    transition: ease-in-out 500ms;
+}
+
+button:hover{
+    transition-timing-function: ease-in-out 500ms;
+    transition: ease-in-out 500ms;
+    transform: scale(115%);
+    background-color: #042dbe;
+}
+hr {
+    display: none;
+}
+h3 {
+    display: none;
+}
+@media screen and (max-width:600px) {
+    input{
+        width: auto;
+        
+    }
+
+    h1 {
+        width: auto;
+        height: auto;
+        overflow: visible;
+        font-size: 2em;
+        text-align: center;
+        margin: 10px;
+        margin-left: 40px;
+        animation: gradient;
+        animation-timeline: view();
+    }
+
+    h2 {
+        font-size: 1em;
+        text-align: left;
+        margin-top: -10px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    input {
+        width: 250px;
+    }
+
+    input:hover {
+        width: 300px;
+    }
+
+    button {
+        width: 90px;
+    }
+    
+  
+    h3 {
+        font-size: 1em;
+        text-align: center;
+        color: gray;
+        font-family: inter;
+        font-weight: lighter;
+        display: grid;
+        
+    }
+}
+
+
+@media screen and (max-width:200px) {
+    body {
+        background-color: black;
+        color: white;
+        font-size: 1em;
+    }
+    input {
+        width: 5px;
+        height: 10px;
+
+    }
+
+    h3 {
+        font-size: 1em;
+        text-align: center;
+        color: gray;
+        font-family: inter;
+        font-weight: lighter;
+        
+    }
+}
+@keyframes gradient {
+    from {
+        color: blue ;
+    }
+
+    to {
+        color: white;
+    }
+    
+}

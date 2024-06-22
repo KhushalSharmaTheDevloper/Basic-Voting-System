@@ -1,0 +1,31 @@
+
+header {
+    text-align: center;
+    font-family: inter;
+    text-decoration: none;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    margin: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    padding: 12px;
+    margin-top: 12px;
+}
+body {
+  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 20000px;
+}
+
+
+
+section {
+    background-image: url(Homepage-Model-3-Desktop-LHD-v2.png);
+    
+}
+
